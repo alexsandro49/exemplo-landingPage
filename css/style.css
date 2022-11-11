@@ -1,0 +1,307 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Montserrat-VariableFont_wght';
+    src: url(/fonts/Montserrat-VariableFont_wght.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: white;
+    font-family: 'Montserrat-VariableFont_wght', Arial, Helvetica, sans-serif;
+    font-weight: 100;
+}
+
+h1 {
+    font-size: 3em;
+    color: #E817C3
+}
+
+.destaque {
+    color: #E817C3;
+}
+
+#home {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(../img/hrz-5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 550px;
+}
+
+#home div {
+    width: 40%;
+}
+
+h2 {
+    font-size: 2em;
+    margin: 20px 0px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h3 {
+    font-size: 1.3em;
+    font-weight: 700;
+    line-height: 1.2em;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: 85%;
+    background-color: #576066;
+    padding: 0px 30px;
+    border-radius: 15px;
+}
+
+form p {
+    align-self: flex-start;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    padding-left: 10px;
+}
+
+form select {
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    margin-bottom: 14px;
+}
+
+.btn {
+    background-color: #E817C3;
+    font-weight: bolder;
+    font-size: 1em;
+    color: white;
+    opacity: 0.8;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+#aprender {
+    background-color: white;
+    height: 500px;
+    text-align: center;
+    color: black;
+}
+
+#aprenderCabecalho {
+    background-color: #95989A;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+#grade0 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aprenderItem {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: mediumaquamarine;
+    background-position: center;
+    background-size: cover;
+}
+
+#item0 {
+    background-image: url(../img/hrz-1.jpg);
+}
+
+#item1 {
+    background-image: url(../img/sqr-2.jpg);
+}
+
+#item2 {
+    background-image: url(../img/sqr-3.jpg);
+}
+
+#aprender p {
+    font-size: 1em;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#local {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),
+    url(../img/hrz-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    text-align: left;
+    color: white;
+}
+
+#local div:first-child {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    column-gap: 20px;
+}
+
+i {
+    font-size: 4em;
+    color: #E817C3;
+}
+
+#local h2 {
+    font-size: 2.5em;
+    text-align: left;
+}
+
+#detalhes {
+    padding-top: 50px;
+    text-align: left;
+    color: black;
+}
+
+#detalhes h2 {
+    font-size: 2.8em;
+    font-weight: 900;
+}
+
+#detalhes h3 {
+    font-size: 2.5em;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#detalhes div {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+#detalhes div:first-child h2 {
+    width: 540px;
+    padding-left: 50px;
+}
+
+.detalhesItem {
+    width: 540px;
+    height: 285px;
+    background-position: center;
+    background-size: cover;
+}
+
+.detalhesEspecial {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 200px;
+    padding-right: 50px;
+    width: 540px;
+}
+
+.detalhesEspecial:first-child h3 {
+    padding-left: 50px;
+}
+
+.detalhesEspecial:first-child ul {
+    padding-left: 70px;
+}
+
+.detalhesEspecial h3, ul {
+    align-self: flex-start;
+    padding-left: 50px;
+}
+
+.detalhesEspecial ul {
+    padding-left: 70px;
+}
+
+#item3 {
+    background-image: url(../img/hrz-3.jpg);
+}
+
+#item4 {
+    background-image: url(../img/hrz-4.jpg);
+}
+
+#item5 {
+    background-image: url(../img/hrz-5.jpg);
+}
+
+#detalhes div:last-child {
+    margin-bottom: 0px;
+}
+
+#inscricao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6)),
+    url(../img/hrz-5.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+}
+
+#inscricao .btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+    height: 15%;
+    margin-top: 10px;
+    border-radius: 12px;
+    text-decoration: none;    
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #95989A;
+}
+
+footer h3 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+h4 {
+    margin-bottom: 10px;
+}
+
+footer p {
+    margin-bottom: 2px;
+}

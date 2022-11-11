@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/720ad60703.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <main>
+        <section id="home">
+            <div>
+                <h1>InDecor</h1>
+                <h2>UM EVENTO PARA<br> REVOLUCIONAR A<br> SUA CRIATIVIDADE</h2>
+                <p>Data do evento:</p>
+                <p class="destaque">Domingo, 28 de Maio, a partir das 14h</p>
+            </div>
+            <form action="login">
+                <h3 class="destaque">Preencha o formulário para receber os detalhes do evento</h3>
+                <p>Nome</p>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome" required>
+                <p>E-mail</p>
+                <input type="email" name="e-mail" id="e-mail" placeholder="Digite seu e-mail" required>
+                <p>Telefone</p>
+                <input type="tel" name="telefone" id="telefone" placeholder="Número de Whatsapp" pattern="[0-9]{2} [0-9]{5} [0-9]{4}" required>
+                <p>Principal interesse</p>
+                <select name="opcao" id="opcao" required>
+                    <option value="" disabled selected>Selecione</option>
+                    <option value="apartamentos">Apartamentos</option>
+                    <option value="casas">Casas</option>
+                    <option value="jardins">Jardins</option>
+                    <option value="outros">Outros</option>
+                </select>
+                <input type="submit" value="QUERO ME INSCREVER" class="btn">
+            </form>
+        </section>
+    
+        <section id="aprender">
+            <div id="aprenderCabecalho"> 
+                <h2>O que você vai aprender</h2>
+            </div>
+            <div id="grade0">
+                <div>
+                   <div id="item0" class="aprenderItem"></div>
+                   <p>Alguma coisa muito legal,<br>
+                    que vai fazer a diferença<br>
+                    na vida do participante.</p>
+                </div>
+                <div>
+                    <div id="item1" class="aprenderItem"></div>
+                    <p>Alguma coisa muito legal,<br>
+                    que vai fazer a diferença<br>
+                    na vida do participante.</p>
+                </div>
+                <div>
+                    <div id="item2" class="aprenderItem"></div>
+                    <p>Alguma coisa muito legal,<br>
+                    que vai fazer a diferença<br>
+                    na vida do participante.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="local">
+            <div>
+                <i class="fa-sharp fa-solid fa-location-dot"></i>
+                <p>Rua do evento, 1333 <br> Bairo <br> Abertura: 14h</p>
+            </div>
+            <div>
+                <h2 class="destaque">LOCAL DE <br> DESTAQUE</h2>
+                <p>O evento será realizado em um local prestigiado <br> pelos amantes de Design de interiores, onde <br> teremos exemplos de vários ambientes, tanto <br> internos como externos.</p>
+            </div>
+        </section>
+    
+        <section id="detalhes">
+            <div>
+                <div id="item3" class="detalhesItem"></div>
+                <h2>Conheça os <br> ambientes que <br> você vai aprender <br> a decorar</h2>
+            </div>
+            <div>
+                <div class="detalhesEspecial">
+                    <h3>Detalhes</h3>
+                    <ul>
+                        <li>Posicionamento</li>
+                        <li>Aproveitamento</li>
+                        <li>Combinação</li>
+                        <li>Organização</li>
+                        <li><strong>E muito mais...</strong></li>
+                    </ul>
+                </div>
+                <div id="item4" class="detalhesItem"></div>
+            </div>
+            <div>
+                <div id="item5" class="detalhesItem"></div>
+                <div class="detalhesEspecial">
+                    <h3>Objetos</h3>
+                    <ul>
+                        <li>Cadeiras</li>
+                        <li>Mesas</li>
+                        <li>Espelhos</li>
+                        <li>Plantas</li>
+                        <li>Cortinas</li>
+                        <li><strong>E muito mais...</strong></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    
+        <section id="inscricao">
+            <h2>Gostou? Então se escreva:</h2>
+            <a class="btn" href="#home">SOLICITAR INSCRIÇÃO</a>
+        </section>
+    </main>
+    <footer>
+        <h3>InDecor</h3>
+        <h4>A evolução da decoração de interiores</h4>
+        <p><strong>Entre em contato:</strong> oi@indecor.com.br</p>
+        <p><strong>Ou pelo telefone</strong> (55) 99990-9999</p>
+    </footer>
+</body>
+</html>
